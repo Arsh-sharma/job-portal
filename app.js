@@ -39,7 +39,7 @@ app.use(cookieParser());
 app.use(cors());
 
 
-ROUTES MIDDLEWARE
+// ROUTES MIDDLEWARE
 app.get('/', (req, res) => {
     res.send("Hello from Node Js");
 })
