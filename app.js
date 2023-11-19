@@ -39,10 +39,10 @@ app.use(cookieParser());
 app.use(cors());
 
 
-//ROUTES MIDDLEWARE
-// app.get('/', (req, res) => {
-//     res.send("Hello from Node Js");
-// })
+ROUTES MIDDLEWARE
+app.get('/', (req, res) => {
+    res.send("Hello from Node Js");
+})
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);
 app.use('/api', jobTypeRoute);
